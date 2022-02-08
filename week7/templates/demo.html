@@ -1,0 +1,13 @@
+<!doctype html>
+<title>Демонстрация алгоритма для заказчика</title>
+<h1>Демонстрация алгоритма для заказчика</h1>
+<h2>Текстовое поле для отзыва</h2>
+<p>Введите/вставьте пример отзыва на телефон:</p>
+<form method=post>
+    <textarea name=text rows=5 cols=80>{{ text }}</textarea>
+    <p></p>
+    <input type=submit value="Оценить">
+</form>
+
+<h2>Предсказание:</h2>
+{{ prediction_message }}
